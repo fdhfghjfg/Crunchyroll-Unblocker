@@ -1,0 +1,29 @@
+{
+	"manifest_version": 2,
+
+	"name": "Crunchyroll Unblocker",
+	"description": "Makes Crunchyroll believe you are from the US.",
+	"version": "0.7",
+
+	"permissions": [
+		"cookies",
+		"tabs",
+		"proxy",
+		"http://crunchyroll.com/"
+	],
+	
+	"browser_action": {
+		"default_icon": "crunblock128.png"
+	},
+	
+	"icons": { 
+		"16": "crunblock16.png",
+		"48": "crunblock48.png",
+		"128": "crunblock128.png" 
+	},
+	
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	}
+}
