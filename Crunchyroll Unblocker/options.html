@@ -1,0 +1,47 @@
+<!doctype html>
+<!-- CSS, HTML and design by Jake Rocheleau, http://www.hongkiat.com/blog/ -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Crunchyroll Unblocker Options</title>
+  <meta name="author" content="Jake Rocheleau">
+  <link rel="stylesheet" type="text/css" media="all" href="style.css">
+</head>
+
+<body>
+
+	<section id="container">
+		
+		<h2>Crunchyroll Unblocker Options (EXPERIMENTAL)</h2>
+		<form name="hongkiat" id="hongkiat-form" method="post" action="#">
+		<div id="wrapping" class="clearfix">
+			<section id="aligned">
+			<h3>IP Address</h3>
+			<input type="text" name="ip address" id="ip" placeholder="151.200.170.146" autocomplete="on" tabindex="1" class="txtinput">
+			</section>
+			
+			<section id="aside" class="clearfix">
+				<section id="recipientcase">
+				<h3>Protocol:Port</h3>
+					<select id="protocol" name="recipient" tabindex="6" class="selmenu">
+  						<option value="http">http:80</option>
+  						<option value="https">https:443</option>
+  						<option value="socks4">socks4:1080</option>
+  						<option value="socks5">socks5:1080</option>
+					</select>
+				</section>
+			</section>
+		</div>
+
+		<section id="buttons">
+			<input type="reset" name="reset" id="resetbtn" class="resetbtn" value="Reset">
+			<input type="submit" name="submit" id="submitbtn" class="submitbtn" tabindex="7" value="Confirm">
+			<br style="clear:both;">
+		</section>
+		</form>
+	</section>
+
+	<script src="options.js"></script>
+</body>
+</html>
